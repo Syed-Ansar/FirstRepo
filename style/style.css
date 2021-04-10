@@ -1,0 +1,140 @@
+body{
+    align-items: center;
+    padding-top: 166px;
+    padding-bottom: 166px;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 1300px;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 154px;
+    padding-top: 154px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.car-1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.car-2{
+    background-color:hsl(184, 100%, 22%);
+}
+.car-3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.car-1,.car-2,.car-3{
+    height: 440px;
+    padding-left: 41px;
+    padding-right: 41px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.icon{
+    padding-top: 43px;
+}
+p{
+    padding-top: 36px;
+}
+button{
+    align-content: center ;
+    height: 43px;
+    width: 132px;
+    padding: 14px;
+    margin: 77px 77px 42px 0px;
+    border-radius: 20px;
+    border: none;
+}
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* mobile phones */
+
+
+
+@media screen and (max-width:375px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+   .car-1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:0 ;
+    border-top-right-radius: 10px;
+   }
+   .car-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 10px;
+    }
+    .container{
+        display: block;
+        justify-content: center;
+        width: 375px;
+        background-color: hsla(0, 0%, 100%, 0.75);
+        padding: 20px; 
+        box-shadow: 0 0 40px 20px rgb(0 0 0 / 10%);
+    }
+    h1{
+        padding: 0;
+        height: 35px;
+    }
+    p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 16px;
+        line-height: 1.5rem;
+        padding: 0;
+    }
+    button{
+        align-content: center ;
+        padding-top: 14px;
+        margin: 28px 0px 48px 0px;
+        border-radius: 20px;
+        border: none;
+    }
+    
+.car-1,.car-2,.car-3{
+    padding-left: 41px;
+    padding-right: 41px;
+    color: hsla(0, 0%, 100%, 0.75);
+    }
+}
