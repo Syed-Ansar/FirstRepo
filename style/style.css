@@ -60,7 +60,7 @@ button{
     height: 43px;
     width: 132px;
     padding: 14px;
-    margin: 77px 77px 42px 0px;
+    margin: 0px 77px 42px 0px;
     border-radius: 20px;
     border: none;
 }
@@ -127,7 +127,7 @@ button{
     button{
         align-content: center ;
         padding-top: 14px;
-        margin: 28px 0px 48px 0px;
+        margin: 30px 0px 48px 0px;
         border-radius: 20px;
         border: none;
     }
